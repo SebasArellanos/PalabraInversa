@@ -2,13 +2,14 @@ class PalabraInversa {
 
     private String palabra;
 
+    PalabraInversa() {
 
-    PalabraInversa(){
-        
     }
-    public String getInversa(){
+
+    public String getInversa() {
         return new StringBuilder(palabra).reverse().toString();
     }
+
     public String getPalabra() {
         return palabra;
     }
@@ -22,7 +23,4 @@ class PalabraInversa {
         return "PalabraInversa [palabra=" + palabra + "]";
     }
 
-
-
-    
 }
